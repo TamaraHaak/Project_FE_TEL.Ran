@@ -11,6 +11,9 @@ export default function CartCard({id, image, title, price, discont_price, count}
     
     const newPrice = discont_price ? discont_price : null;
 
+   
+
+
     const dispatch = useDispatch();
     
 
@@ -25,8 +28,8 @@ export default function CartCard({id, image, title, price, discont_price, count}
                         <p> {count} </p>
                         <p onClick={() =>dispatch(incrCountAction(id))}
                         >+</p>
-                        {newPrice == null ? '' : <p>${(count * newPrice).toFixed(2)}</p>}
-                        <p>${(price*count).toFixed(2)} </p>
+                        {newPrice == null ? '' : <p>${(count * newPrice).toFixed(1)}</p>}
+                        <p>${(price*count).toFixed(1)} </p>
                     </div>
                     </div>
                 <div className={s.button} onClick={()=>dispatch(deleteCartItemAction(id))}>X</div>

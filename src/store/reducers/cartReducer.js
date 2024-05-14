@@ -5,7 +5,7 @@ const DELETE_CART_ITEM = 'DELETE_CART_ITEM';
 const INCR_COUNT = 'INCR_COUNT';
 const DECR_COUNT = 'DECR_COUNT';
 const ADD_SINGLE_PRODUCT = 'ADD_SINGLE_PRODUCT'
-const CLEAR_CART = 'CLEAR_CART'
+//const CLEAR_CART = 'CLEAR_CART'
 const CLEAR_BASKET = 'CLEAR_BASKET'
 
 export const addToCartAction = (product) => ({ type: ADD_TO_CART, payload: product });
