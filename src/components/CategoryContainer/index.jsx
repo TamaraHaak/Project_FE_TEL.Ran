@@ -15,7 +15,7 @@ export default function CategoryContainer() {
   
   useEffect(() => {
     dispatch(getCategoriesList)
-  }, []);
+  }, [dispatch]);
 
   const categoriePageData = useSelector(store => store.mainCategories)
  

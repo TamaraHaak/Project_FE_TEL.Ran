@@ -17,7 +17,7 @@ export default function SingleProductCard({id, categoryId, title, image, discont
 
     useEffect(() =>{
       dispatch(getCategoriesList)
-  }, []);
+  }, [dispatch]);
 
     const get_category_title = categoryId => {
         const category = categories_data.find(el => el.id === categoryId);

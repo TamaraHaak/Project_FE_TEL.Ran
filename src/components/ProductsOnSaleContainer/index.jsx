@@ -13,7 +13,7 @@ const dispatch = useDispatch();
 
 useEffect(() => {
     dispatch(getProductsOnSale)
-}, []);
+}, [dispatch]);
 
 const productsOnSaleData = useSelector(store => store.productsOnSales)
 

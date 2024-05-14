@@ -10,7 +10,7 @@ const dispatch = useDispatch();
 
 useEffect(() => {
     dispatch(getProductsOnSale)
-}, [])
+}, [dispatch] )
 
 const allProductsOnSalesData =  useSelector(store => store.productsOnSales)
 

@@ -15,7 +15,7 @@ export default function CategoriesContainerMain() {
 
   useEffect(() => { 
     dispatch(getCategoriesList)
-  }, []);
+  }, [dispatch]);
   
 
   const categoriesMain = useSelector(store => store.mainCategories)

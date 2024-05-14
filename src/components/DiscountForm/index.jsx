@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import s from './index.module.css';
-import image from './image.png';
+//import image from './image.png';
 import { useForm } from 'react-hook-form';
 
 export default function DiscountForm() {
@@ -20,7 +20,7 @@ export default function DiscountForm() {
         <div className={s.block_form}>
             <h1>5% off on the first order</h1>
             <div className={s.content_container}>
-                <img src={image} alt="Image" />
+               { /*<img src={image} alt="Image" />*/}
                 <form className={s.form_container} onSubmit={handleSubmit(onSubmit)}>
                     <div className={s.inputs}>
                         <div className={s.inputWrapper}>

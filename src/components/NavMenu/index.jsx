@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import s from './index.module.css'
 import logo from './media/logo_nav_menu.png'
 import basket_buy from './media/icon_garden.png' 
-import { useDispatch, useSelector } from 'react-redux'
+import { useSelector } from 'react-redux'
 import {IoMenu} from "react-icons/io5"
 
 export default function NavMenu() {
