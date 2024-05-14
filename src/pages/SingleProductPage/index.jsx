@@ -17,7 +17,7 @@ const { id } = useParams();
 
 useEffect(() => {
     dispatch(getSingleProduct(id))
-}, []);
+}, [dispatch, id]);
 
 const singleProductState = useSelector(store => store.singleProduct)
   
