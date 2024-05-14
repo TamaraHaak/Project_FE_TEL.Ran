@@ -1,0 +1,156 @@
+.nav_menu {
+    display: flex;
+    font-family: 'Montserrat';
+    align-items: center;
+    gap: 50px;
+    height: 15px;
+    color: rgba(66, 68, 54, 1);
+    justify-content: center;
+    margin: auto;
+  
+  }
+  
+  .nav_menu a {
+    color: rgba(66, 68, 54, 1);
+  }
+  
+  .basket{
+     width: 48px;
+     height: 48px;
+     position: absolute;
+     top: 0;
+     right: 0;
+     margin: 10px;
+     cursor: pointer;
+     margin-top: 30px;
+     display: block;
+  }
+  
+  .basket{
+     width: 48px;
+     height: 48px;
+     position: absolute;
+     top: 0;
+     right: 0;
+     margin: 10px;
+     cursor: pointer;
+     margin-top: 30px;
+     display: block;
+  }
+  
+  .header nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .count {
+    width: 19px;
+    height: 20px;
+    position: absolute;
+    margin: 10px;
+    margin-top: 30px;
+    background-color:rgba(146, 161, 52, 1);
+    top: 10px;
+    right: 30px;
+    border-radius: 8px;
+    display: block;
+  }
+  
+  .logo_imge{
+    display: block;
+  }
+  
+  .menu_icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 100px;
+    width: 100px;
+    height: 48px;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    margin-top: 30px;
+    position: absolute;
+  }
+  
+  .menu_icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 50px;
+    width: 150px;
+    height: 48px;
+    top: 0;
+    right: 0;
+    margin: 0 0 0 500px;
+    color: black;
+    }
+  
+  @media(min-width: 1440px){
+      .menu_icon{
+        display: none;
+    }
+  }
+  
+  @media(max-width: 1440px){
+        .menu_icon{
+          display: none;
+  }
+  }
+      
+  @media(max-width: 1000px){
+     .menu_icon{
+      display: none;
+  }
+  }
+        
+  @media(max-width: 768px){
+      .menu_icon{
+       display: none;
+  }
+     
+  @media(max-width: 480px){
+    .menu_icon{
+       display: block;}
+  
+     .nav_menu {
+      display: none;}
+   }
+   }
+    
+  @media(max-width: 1440px){
+    .nav_menu{
+      width: 1440px;
+    }
+  }
+  
+  @media(max-width: 1000px){
+    .nav_menu{
+     width: 1000px;
+    }
+  }
+  
+  
+  @media(max-width: 768px){
+    .nav_menu{
+      width: 768px;
+    }
+  }
+  
+  
+  @media(max-width: 480px){
+    .nav_menu{
+     display: none;
+    }
+  }
+    
+  
+  @media(max-width: 360px){
+    .nav_menu{
+     display: none;
+    }
+  }

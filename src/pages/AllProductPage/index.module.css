@@ -1,0 +1,185 @@
+.navigation{
+    width: Hug (231px)px;
+    height: Hug (36px)px;
+    top: 168px;
+    left: 40px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 40px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation p:first-child{
+    width: Hug (118px)px;
+    height: Hug (36px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    color: #8B8B8B;
+    border-radius: 12px;
+}
+
+.navigation p:nth-child(2){
+    width: 16px;
+    height: 0px;
+    gap: 0px;
+    opacity: 0px;
+    color: #DDDDDD;
+    font-size: large;
+}
+
+.navigation :last-child{
+    width: Hug (97px)px;
+    height: Hug (36px)px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    border-radius: var(--radiussmall);
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: center;
+    color: #424436;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+}
+
+.title {
+    padding-top: 40px;
+    padding-left:40px;
+    width: 1360px;
+    height: 70px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    text-align: left;
+    color: #282828;
+}
+
+.sortContainer {
+    width: Hug (908px)px;
+    height: Fixed 36px;
+    gap: 40px;
+    opacity: 0px;
+    display: flex;
+    padding-top: 80px;
+    padding-left: 40px;
+    line-height: 26px;
+}
+
+.priceTitle {
+    width: Hug (309px)px;
+    height: Hug (36px)px;
+    gap: 16px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #424436;
+    margin-top: 15px;
+}
+
+.formFrom{
+    width: 90px;
+    height: 36px;
+    padding: 8px 16px 8px 16px;
+    gap: 10px;
+    margin-right: 16px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: left;
+    border-radius: 6px;
+    border: 1px solid #DDDDDD;
+    margin-top: 10px;
+}
+
+.formTo{
+    width: 90px;
+    height: 36px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: left;
+    border-radius: 6px;
+    padding-left: 16px;
+    border: 1px solid #DDDDDD;
+    
+}
+
+.sortedTitle > span {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #424436;
+    width: 234px;
+    height: 36px;
+    gap: 16px;
+   
+}
+
+
+.checkbox {
+    width: 36px;
+    height: 36px;
+    gap: 10px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+
+.sorted {
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    color: #424436;
+    width: Hug (285px)px;
+    height: Hug (36px)px;
+    gap: 16px;
+    opacity: 0px;
+    padding-right: 10px;
+}
+
+.byDefault{
+    width: 200px;
+    height: 36px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20.16px;
+    text-align: left;
+    border-radius: 6px;
+    padding-left: 16px;
+    border: 1px solid #DDDDDD;
+    background: #FFFFFF;
+    color: #424436;
+}
+
+.form > input:nth-child(3) {
+    display: none ;
+}

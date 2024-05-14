@@ -1,0 +1,73 @@
+.notFoundPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    gap: 16px;
+    margin-bottom: 80px;
+}
+
+.fourZeroFour {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fourZeroFour > p {
+    font-family: 'Montserrat';
+    color: #92A134;
+    font-size: 380px;
+    font-weight: 600;
+}
+
+.fourZeroFour > img {
+    width: 300px;
+    height: 270px;
+}
+
+.notFoundPage > h1 {
+    font-family: 'Montserrat';
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 70.4px;
+    text-align: center;
+    color: #424436;
+}
+
+.notFoundPage > h2 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: center;
+    color: #8B8B8B;
+    padding: 0px;
+    margin-bottom: 32px;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.button {
+    border: none;
+    width: 209px;
+    height: 58px;
+    padding: 16px;
+    gap: 10px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #92A134;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #8b9835;
+}

@@ -1,0 +1,110 @@
+.productCard{
+    width:316px;
+    height: 422px;
+    gap: 20px;
+    background-color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 12px;
+    position: relative;
+    cursor: pointer;  
+}
+
+.productCard > img {
+    width: 315px;
+    height: 284px;
+    gap: 0px;
+    border: 1px solid #DDDDDD;
+    opacity: 0px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;  
+}
+
+.productCard p:nth-child(1){
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #424436;
+    margin-top: 20px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.productCard p:nth-child(2) {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    margin-top: 16px;
+    margin-left: 32px;
+    color: #424436;
+}
+
+.productCard p:nth-child(3) {
+    width: 51px;
+    height: 26px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    text-decoration: line-through;
+    color: #8B8B8B;
+    position: absolute;
+    bottom: 30px;
+    padding-left: 190px;
+}
+
+.productCard P:nth-child(4) {
+       width: 60px;
+       height: 26px;
+       border: 1px solid #F26D22;
+       background-color: #F26D22;
+       border-radius: 8px;
+       font-family: 'Montserrat';
+       font-size: 20px;
+       font-weight: 600;
+       line-height: 26px;
+       letter-spacing: 0.03em;
+       text-align: center;
+       color: white;
+       position: absolute;
+       bottom: 380px;
+       left: 240px;
+}
+
+.productCard button {
+    width:284px;
+    height: 58px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #F26D22;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    opacity: 0;
+    border: none;
+}
+
+.productCard button:active {
+    background-color: #424436;
+    outline: none;
+}
+
+.productCard button:hover{
+   opacity: 100;
+}

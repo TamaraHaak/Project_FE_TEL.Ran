@@ -1,0 +1,170 @@
+
+footer {
+    width: 100%;
+    height: 948px;
+    padding: 0px 40px 80px 40px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer > h1 {
+    font-family: 'Montserrat';
+    font-size: 64px;
+    font-weight: 700;
+    color: #424436;
+}
+
+.info_container {
+    display: grid;
+    gap: 32px;
+    grid-template-columns: 4fr 3fr;
+}
+
+.info_card {
+    background-color: #F2F6D3;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+    border-radius: 12px;
+}
+
+.info_card > h2 {
+    font-family: 'Montserrat';
+    color: #8B8B8B;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    padding: 0;
+}
+
+.info_card > h3 {
+    font-family: 'Montserrat';
+    color: #424436;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+}
+
+.images > img {
+    size: 43px;
+}
+
+.images {
+    display: flex;
+    gap: 16px;
+}
+
+.map > iframe {
+    width: 100%;
+    height: 350px;
+    border-radius: 12px;
+    border: 0;
+}
+
+
+@media(max-width: 1440px){
+    .info_container{
+        width: 1440px;
+    }
+
+    .map > iframe{
+        width: 1440px;
+    }
+}
+
+   @media(max-width: 1000px){
+    .info_container{
+        width: 1000px;
+    }
+
+    .map > iframe{
+        width: 1000px;
+    }
+}
+
+@media(max-width: 768px){
+    .info_container{
+        width: 760px;
+        height: 480px;
+        
+        
+    }
+
+    footer > h1{
+        padding-top: 100px;
+    }
+
+    .map > iframe{
+        width: 768px;
+        height: 350px;
+    }
+}
+
+   
+
+   @media(max-width: 480px){
+    .info_container{
+        grid-template-columns: none;
+        Width: 480px;
+        Height: 896px;
+        Padding: 0px, 20px, 56px, 20px;
+        Gap: 24px;
+       
+    }
+
+    .map > iframe{
+        width: 480px;
+    }
+    }
+     @media(max-width: 360px){
+        .info_container{
+            grid-template-columns: none;
+            Width: 400px;
+            Height: 896px;
+            Padding: 0px, 20px, 56px, 20px;
+            Gap: 24px;
+           
+        }
+    
+        .map > iframe{
+            width: 400px;
+        }
+        }
+    
+        @media(max-width: 1440px){
+            .footer {
+              width: 1440px;
+              height: 3542px;
+          }
+          
+      }
+      
+        @media(max-width: 768px){
+          .footer {
+            width: 768px;
+            height: 3824px;
+        }
+        
+          
+}
+
+@media(max-width: 480px){
+    .footer {
+      width: 480px;
+      height: 3824px;
+  }
+  
+    
+}
+
+@media(max-width: 360px){
+    .footer {
+      width: 360px;
+      height: 3824px;
+  }
+  
+    
+}

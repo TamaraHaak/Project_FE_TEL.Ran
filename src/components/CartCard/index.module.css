@@ -1,0 +1,115 @@
+.card {
+    display: flex;
+    margin: 20px;
+    background-color: #FFFFFF;
+    width: 780px;
+    height: 180px;
+    gap: 32px;
+    border-radius: 12px;
+    border: 1px solid #DDDDDD;
+}
+
+.card img {
+    width: fixed 200px;
+    height: 178px;
+    border: 1px 0px 0px 0px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.navigationBlock{
+    display: flex;
+    flex-direction:column;
+}
+
+.title {
+    width: 476px;
+    height: 26px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #424436;
+    padding-top: 32px;
+    text-wrap: nowrap;
+}
+
+.buttons {
+    display: flex;
+    padding-top: 50px;
+    text-wrap: nowrap;
+}
+
+.buttons > p:first-child{
+    width: 58px;
+    height:58px;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #8B8B8B;
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.buttons p:nth-child(2) {
+    width:96px;
+    height:58px;
+    border: 1px solid #DDDDDD;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    color: #424436;
+    padding-top: 15px;
+}
+
+.buttons p:nth-child(3) {
+    width: 58px;
+    height:58px;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    color: #8B8B8B;
+    text-align: center;
+    padding-top: 15px;
+    cursor: pointer;
+}
+
+.buttons p:nth-child(4) {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #424436;
+    padding-left: 32px;
+}
+
+.buttons p:nth-child(5) {
+    font-family: Montserrat;
+    width: 51px;
+    height: 26px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    text-decoration: line-through;
+    color: #8B8B8B;
+    padding-left: 16px ;
+    margin-top: 14px;
+}
+
+
+
+.button {
+  color: #424436;
+  padding-top: 34px;
+  cursor: pointer;
+}

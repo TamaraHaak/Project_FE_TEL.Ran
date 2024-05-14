@@ -1,0 +1,119 @@
+.productCard {
+    width: 316px;
+    height: 422px;
+    gap: 20px;
+    border-radius: 12px;
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    position: relative;
+}
+
+.productCard > img {
+    width: 315px;
+    height: 284px;
+    gap: 0px;
+    opacity: 0px;
+    border-bottom: 1px solid #DDDDDD;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.productCard > div {
+    display: flex;
+    flex-direction:column; 
+    padding: 16px 32px 16px 32px;
+    gap: 16px;
+}
+
+.productTitle {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #282828;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.productPrice {
+    display: flex;
+    flex-direction:row;
+    gap: 16px;
+}
+
+.firstPrice {
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+    text-align: left;
+    color: #424436;
+}
+
+
+.secondPrice {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    text-align: left;
+    color: #8B8B8B;
+    align-self: flex-end;
+    text-decoration: line-through;
+}
+
+.productSale {
+    width: 75px;
+    height: 35px;
+    padding: 4px 6px 4px 6px;
+    gap: 10px;
+    border-radius: 6px;
+    opacity: 0px;
+    background: #F26D22;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.productCard > div > .productSale {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+}
+
+.productCard button {
+    width:284px;
+    height: 58px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: #F26D22;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    opacity: 0;
+    border: none;
+}
+
+.productCard button:active {
+    background-color: #424436;
+    outline: none;
+}
+
+.productCard button:hover{
+   opacity: 100;
+}
