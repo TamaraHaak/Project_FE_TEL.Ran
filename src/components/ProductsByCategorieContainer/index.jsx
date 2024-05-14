@@ -15,7 +15,7 @@ export default function ProductsByCategorieContainer({productsByCategorieState})
     
     useEffect(() => {
         dispatch(getProductsByCategorie(categoryId));
-    }, []);
+    }, [categoryId, dispatch]);
    
     const {data, category} = productsByCategorieState;
 

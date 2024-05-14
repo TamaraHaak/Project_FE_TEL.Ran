@@ -34,7 +34,7 @@ const userData = {
     email: email.value
   }
 
-    event.target.reset()
+    event.target.reset(userData);
   }
 
   const ItemsCount = new Set(cartState.map(item => item.id)).size;

@@ -12,7 +12,7 @@ export default function ProductsByCategoriesPage() {
 
     useEffect(() => {
         dispatch(getProductsByCategorie(categoryId))
-    }, [])
+    }, [categoryId, dispatch])
 
     const productsByCategorieState = useSelector(store =>store.productsByCategories );
    
