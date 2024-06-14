@@ -1,4 +1,4 @@
-Project Title: "Garden Products Online Store"
+Project Title: "Garden Products Online Store" https://gardenst.netlify.app/
 
 Project Description: Development of a web application for an online store specializing in household and garden products. The site provides users with a convenient interface for browsing products, categorizing them, adding them to the cart, and placing orders.
 
