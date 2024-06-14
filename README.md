@@ -54,3 +54,4 @@ Additional Features:
 
 Mobile adaptation: the application correctly displays on various devices according to the layout.
 Contact: 1.German Rajevskis e-mail: grajevskis@gmail.com, 2.Aleksandra Bulai e-mail: alexandra.bulai2012@gmail.com, 3. Tamara Haak e-mail: tamarahaak@web.de Link to the project: https://github.com/GermanRaj/garden_store
+https://gardenst.netlify.app/
